@@ -242,11 +242,6 @@ var runAppFunction = function() {
             output(data);
           });
          break;
-         case 'me':
-            output("<br><strong>Rafael Casachi</strong>");
-            output('<em>rcasachi@gmail.com | <a href="http://www.rafaelcasachi.eti.br" target="blank" style="color:#c36d3c!important">www.rafaelcasachi.eti.br</a></em>');
-            output('<br><img src="http://www.rafaelcasachi.eti.br/tim.php?src=uploads/settings/2016/09/1473854685.jpg&w=760&h=300" width="350">');
-            break;
          default:
             if (cmd) {
                output(cmd + ': command not found');
